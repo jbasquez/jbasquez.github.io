@@ -5,13 +5,34 @@
   <meta charset="UTF-8">
   <title>CSS Stylesheets with Relative Paths</title>
 
-  <!-- This line is money! It points your HTML to the CSS file. -->
-  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Menu</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <header>
     <h1>Bio</h1>
   </header>
@@ -24,7 +45,7 @@
 
       <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
 
-      <p>Highly motivated, hard working individual, with a passsion for front end and back end development.<a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+      <p>Highly motivated, hard working individual, with a passsion for front end and back end development</p>
     </section>
 
     <section id="contact-info">
