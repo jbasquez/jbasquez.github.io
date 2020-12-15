@@ -2,7 +2,8 @@ const passwordEl = document.getElementById('password');
 const lengthEl = document.getElementById('length');
 const uppercaseEl = document.getElementById('uppercase');
 const lowercaseEl = document.getElementById('lowercase');
-const specialchar = document.getElementById('symbol');
+const symbolEl = document.getElementById('symbol');
+const numberEl = document.getElementById('numbers');
 const generateEl = document.getElementById('generate');
 const allFunc = {
     upper: getRandomUpper,
@@ -10,6 +11,12 @@ const allFunc = {
     number: getRandomNumber,
     symbol: getRandomSymbol
 };
+generateEl.addEventListener('click', () => {
+    const length = +lengthEl.value;
+    const hasLower = lowercaseEl.checked;
+    const hasUpper = uppercaseEl.checked;
+    const hasSymbol = symbolEl.checked;
+})
 function getRandomUpper() {
     return String.fromCharCode(Math.floor(Math.random()*26)+65);
 }
