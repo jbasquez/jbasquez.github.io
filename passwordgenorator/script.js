@@ -5,47 +5,52 @@ const lowercaseEl = document.getElementById('lowercase');
 const symbolsEl = document.getElementById('symbols');
 const numbersEl = document.getElementById('numbers');
 const generateEl = document.getElementById('generate');
-const allFunc = {
+
+const randomFunc = {
     upper: getRandomUpper,
     lower: getRandomLower,
     number: getRandomNumber,
     symbol: getRandomSymbols
 };
 
-generateEl.addEventListener('click', () => {
+generate.addEventListener('click', () => {
     const length = +lengthEl.value;
     const hasLower = lowercaseEl.checked;
     const hasUpper = uppercaseEl.checked;
     const hasNumber = numbersEl.checked;
-    const hasSymbols = symbolsEl.checked;
-    resultEl.innerText = generatedPassword(
+    const hasSymbol = symbolsEl.checked;
+    
+    resultEl.innerText = generatePassword(
         hasLower,
         hasUpper,
         hasNumber,
-        hasSymbols,
+        hasSymbol,
         length
     );
 });
 
-function generatedPassword(lower, upper, number,symbols, length) {
+function generatePassword(lower, upper, number, symbol, length) {
+    
     let generatedPassword = '';
+    
     const typesCount = lower + upper + number + symbols;
-    console.log('typesCount', typesCount);
-    const typesArr = [{ lower }, { upper }, { number }, { symbols }].filter
+    
+    const typesArr = [{lower}, {upper}, {number}, {symbol}].filter
         (
         item => Object.values(item)[0]
         );
     
-    if (typesCount === 0) {
-        return 'please select a input value';
+    if(typesCount === 0) {
+        return '';
     }
-    for (let i = 0; i < length; i += typesCount) {
-        typesArr.forEach(type => {
-            const funcName = Object.keys(type)[0];
-            generate += allFunc[funcName]();
-        });
-    }
-    
+    for(let i=0; i<length; i+=typesCount) {
+		typesArr.forEach(type => {
+			const funcName = Object.keys(type)[0];
+			generatedPassword += randomFunc[funcName]();
+		});
+	}
+    const finalPassword = generatedPassword.slice(0, length);
+    return finalPassword;
 }
 
 
