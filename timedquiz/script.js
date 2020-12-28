@@ -78,6 +78,7 @@ function setStatusClass(element, correct) {
         element.classList.add('wrong')
     }
 }
+
 function clearStatusClass(element) {
     element.classList.remove('correct')
     element.classList.remove('wrong')
@@ -99,17 +100,17 @@ const questions = [
         ]
     },
     {
-        question: 'Javascript',
+        question: 'Javascript _____ functions on the page.',
         answers: [
-            {text: '2', correct: true },
-            {text: '4', correct: false }
+            {text: 'Executes', correct: true },
+            {text: 'styles', correct: false }
         ]
     },
     {
-        question: 'Question',
+        question: '_______is a programming language',
         answers: [
-            {text: 't', correct: true },
-            {text: 'be', correct: false }
+            {text: 'Javascript', correct: true },
+            {text: 'Spanish', correct: false }
         ]
     }
 ]
