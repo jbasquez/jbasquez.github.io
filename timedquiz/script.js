@@ -86,10 +86,10 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'If is the same as true as else is the same as?',
+        question: 'If is the same as true, as else is the same as______?',
         answers: [
-            {text: 'true', correct: true },
-            {text: 'maybe', correct: false }
+            {text: 'maybe', correct: false },
+            {text: 'false', correct: true }
         ]
     },
     {
@@ -102,8 +102,8 @@ const questions = [
     {
         question: 'Javascript _____ functions on the page.',
         answers: [
-            {text: 'Executes', correct: true },
-            {text: 'styles', correct: false }
+            {text: 'styles', correct: false },
+            {text: 'Executes', correct: true }
         ]
     },
     {
