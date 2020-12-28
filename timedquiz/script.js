@@ -7,12 +7,13 @@ const answerButtonsElement = document.getElementById('answer-buttons')
 let shuffledQuestions, currentQuestionIndex
 let timeLeft = 10
 
+// adds click function to start button and sets next question
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
     currentQuestionIndex++
     setNextQuestion()
 })
-
+//loop to randomize questions
 function startGame() {
     startButton.classList.add('hide')
     shuffledQuestions = questions.sort(() => Math.random() - .5)
@@ -21,6 +22,7 @@ function startGame() {
     countDown()
     setNextQuestion()
 }
+//countdown timer
 function countDown(){
     setInterval(function(){
         if(timeLeft <= 0 ){
@@ -34,7 +36,7 @@ function setNextQuestion() {
     resetState()
     showQuestion(shuffledQuestions[currentQuestionIndex])
 }
-
+//adds listeners to answers 
 function showQuestion(question) {
     questionElement.innerText = question.question
     question.answers.forEach(answer => {
@@ -48,6 +50,7 @@ function showQuestion(question) {
         answerButtonsElement.appendChild(button)
     })
 }
+//resets games button removes nest button
 function resetState(){ 
     clearStatusClass(document.body)
     nextButton.classList.add('hide')
@@ -56,6 +59,11 @@ function resetState(){
         (answerButtonsElement.firstChild)
     }
 }
+function endGame(){
+        resetState
+        timerWords = 'Times Up'
+}
+//ends game 
 function selectAnswer(e) {
     const selectedButton = e.target
     const correct = selectedButton.dataset.correct
@@ -65,8 +73,11 @@ function selectAnswer(e) {
     })
     if (shuffledQuestions.length > currentQuestionIndex + 1){
     nextButton.classList.remove('hide')
-    }else{
-        startButton.innerText = 'restart'
+    }else if(timeLeft<=0){
+        endGame
+    }
+    else{
+        startButton.innerText = 'game over'
         startButton.classList.remove('hide')
     }
 }
@@ -83,7 +94,7 @@ function clearStatusClass(element) {
     element.classList.remove('correct')
     element.classList.remove('wrong')
 }
-
+//questions
 const questions = [
     {
         question: 'If is the same as true, as else is the same as______?',
