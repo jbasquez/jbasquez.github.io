@@ -16,7 +16,7 @@ var temp2 = document.querySelector('.temp2');
 var date3 = document.querySelector('.date3');
 var weather3 = document.querySelector('.weather3');
 var temp3= document.querySelector('.temp3');
-var icon = document.querySelector('.icon')
+var icon= document.querySelector('.icon');
 
 button.addEventListener('click',function(){
     fetch('https://api.openweathermap.org/data/2.5/forecast?q='+inputValue.value+'&appid=6ba9c7b56220b9534a05654f858b3639')
@@ -38,7 +38,7 @@ button.addEventListener('click',function(){
         var dateValue3 = data['list']['29']['dt_txt'];
         var tempValue3 = data['list']['29']['main']['temp'];
         var weatherValue3 = data['list']['29']['weather']['0']['description'];
-        var iconValue = data['list']['0']['weather']['0']['icon']
+        var iconValue =data['list']['0']['weather']['0']['icon'];
 
         city.innerHTML = cityValue;
         date.innerHTML = `Date: ${dateValue}`;
