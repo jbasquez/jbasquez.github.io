@@ -16,7 +16,10 @@ var temp2 = document.querySelector('.temp2');
 var date3 = document.querySelector('.date3');
 var weather3 = document.querySelector('.weather3');
 var temp3= document.querySelector('.temp3');
-var icon= document.querySelector('.icon');
+var humid= document.querySelector('.humid');
+var wind= document.querySelector('.wind');
+var visability = document.querySelector('.visability')
+//var icon= document.querySelector('.icon');
 
 button.addEventListener('click',function(){
     fetch('https://api.openweathermap.org/data/2.5/forecast?q='+inputValue.value+'&appid=6ba9c7b56220b9534a05654f858b3639')
@@ -38,7 +41,11 @@ button.addEventListener('click',function(){
         var dateValue3 = data['list']['29']['dt_txt'];
         var tempValue3 = data['list']['29']['main']['temp'];
         var weatherValue3 = data['list']['29']['weather']['0']['description'];
-        var iconValue =data['list']['0']['weather']['0']['icon'];
+        var humidValue= data['list']['0']['main']['humidity'];
+        var windValue= data['list']['0']['wind']['speed'];
+        var visabilityValue= data['list']['0']['visibility']
+        console.log(visabilityValue)
+        //var iconValue =data.list[0][weather][0][icon];
 
         city.innerHTML = cityValue;
         date.innerHTML = `Date: ${dateValue}`;
@@ -54,9 +61,11 @@ button.addEventListener('click',function(){
         temp2.innerHTML= 'tempeture in celcuis:'+ tempValue2;
         weather2.innerHTML= 'Forecast: '+ weatherValue2;
         date3.innerHTML = `Date: ${dateValue3}`;
-        temp3.innerHTML= 'tempeture in celcuis:'+ tempValue3;
+        temp3.innerHTML= 'tempeture in kelvin:'+ tempValue3;
         weather3.innerHTML= 'Forecast: '+ weatherValue3;
-        icon.innerHTML= iconValue;
-        console.log(data)
+        humid.innerHTML= 'Humidity: '+ humidValue;
+        wind.innerHTML= 'Wind Speed: '+ windValue;
+        visability.innerHTML= 'Visability: '+ visabilityValue;
+        //icon.src= iconValue;
     })
 })
