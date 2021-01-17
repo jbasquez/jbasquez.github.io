@@ -1,3 +1,4 @@
+//calls on variables and makes them constants
 const resultEl = document.getElementById('result');
 const lengthEl = document.getElementById('length');
 const uppercaseEl = document.getElementById('uppercase');
@@ -29,29 +30,25 @@ generate.addEventListener('click', () => {
     );
 });
 
-function generatePassword(lower, upper, number, symbol, length) {
+//function generatePassword(lower, upper, number, symbol, length) {
     
-    let generatedPassword = '';
+   // let generatedPassword = '';
     
-    const typesCount = lower + upper + number + symbols;
+    //const typesCount = lower + upper + number + symbols;
     
-    const typesArr = [{lower}, {upper}, {number}, {symbol}].filter
+   // const typesArr = [{lower}, {upper}, {number}, {symbol}].filter
         (
         item => Object.values(item)[0]
         );
     
-    if(typesCount === 0) {
+   // if(typesCount === 0) {
         return '';
-    }
-    for(let i=0; i<length; i+=typesCount) {
-		typesArr.forEach(type => {
-			const funcName = Object.keys(type)[0];
-			generatedPassword += randomFunc[funcName]();
-		});
-	}
-    const finalPassword = generatedPassword.slice(0, length);
+   // }
+  
+//	}
+    //const finalPassword = generatedPassword.slice(0, length);
     return finalPassword;
-}
+//}
 
 
 function getRandomUpper() {
