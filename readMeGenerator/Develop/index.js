@@ -16,18 +16,19 @@ inquirer.prompt([
     {
         type: 'input',
         message: 'What is your project name?',
-        name: 'reponame'
+        name: 'repoName'
     },
     {
         type: 'input',
         message: 'Write a short discription',
-        name: 'discritption'
+        name: 'discription'
     },
-    // {
-    //     type: 'list',
-    //     message: 'What kind of license should your project have?',
-    //     choices: ["MIT", "Apache 2.0", "GPL 3.0", "BSD 3", "none"]
-    // },
+    {
+        type: "list",
+        message: "What kind of license should your project have?",
+        choices: ["MIT", "Apache 2.0", "GPL 3.0", "BSD 3", "none"],
+        name: "license"
+    },
     {
         type: 'input',
         message: 'What is version is needed for instaltation',
@@ -40,8 +41,8 @@ inquirer.prompt([
     },
 
 ]).then(response => {
-    const filename = '${response.name.toLowerCase()}.json';
-   
+    // const filename = '${response.repoName.toLowerCase()}.json';
+    console.log(response);
     
 });
 // TODO: Create a function to write README file
