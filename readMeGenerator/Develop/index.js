@@ -40,16 +40,17 @@ inquirer.prompt([
         name: 'ready'
     },
 
-]).then(response => {
-    // const filename = '${response.repoName.toLowerCase()}.json';
-    console.log(response);
-    
-});
+])
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then((inquirerResponses) => {
+        console.log('Generating README...');
+        writeToFile('README.md', generateMarkdown({ ...inquirerResponses }));
+      });
+}
 
 // Function call to initialize app
 init();
