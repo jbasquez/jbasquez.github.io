@@ -48,8 +48,10 @@ const list = [
 
 ]
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-
+function writeToFile(list, data) {
+    fs.writeFile(list, JSON.stringify(data), (err) =>
+      err ? console.log(err) : console.log('Success!')
+    );
 }
 
 // TODO: Create a function to initialize app
