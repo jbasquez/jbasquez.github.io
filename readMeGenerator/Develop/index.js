@@ -30,6 +30,11 @@ const list = [
         name: 'discription'
     },
     {
+        type: 'input',
+        message: 'Who contributed to this',
+        name: 'contributors'
+    },
+    {
         type: "list",
         message: "What kind of license should your project have?",
         choices: ["MIT", "Apache 2.0", "GPL 3.0", "BSD 3", "none"],
