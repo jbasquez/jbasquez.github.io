@@ -56,9 +56,9 @@ function writeToFile(list, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(list).then(function (data) {
-        fs.writeToFile('README.md', generateMarkdown({ data }));
-    })
+    inquirer.prompt(list).then(=>)(data){
+        writeToFile('README.md', generateMarkdown({ data }));
+    }
 }
 
 // Function call to initialize app
