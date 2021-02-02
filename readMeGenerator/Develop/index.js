@@ -49,7 +49,7 @@ const list = [
 ]
 // TODO: Create a function to write README file
 function writeToFile(list, data) {
-    fs.writeFile(list, JSON.stringify(data), (err) =>
+    fs.writeFile(filename, JSON.stringify(data), (err) =>
       err ? console.log(err) : console.log('Success!')
     );
 }
@@ -57,7 +57,7 @@ function writeToFile(list, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(list).then(function (data) {
-        writeToFile('README.md', generateMarkdown({ data }));
+        fs.writeToFile('README.md', generateMarkdown({ data }));
     })
 }
 

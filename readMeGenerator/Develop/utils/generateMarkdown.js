@@ -15,7 +15,7 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   `# ${data.title}
   <h2># Contact</h2>
- *username: ${username}
+ *username: ${data.username}
  `;
 }
 
