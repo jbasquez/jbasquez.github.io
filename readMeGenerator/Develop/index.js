@@ -26,7 +26,7 @@ const list = [
     },
     {
         type: 'input',
-        message: 'Write a short discription',
+        message: 'Write a short discription of this project',
         name: 'discription'
     },
     {
@@ -42,7 +42,7 @@ const list = [
     },
     {
         type: 'input',
-        message: 'What is version is needed for installation',
+        message: 'What version is needed for installation',
         name: 'installation'
     },
     {

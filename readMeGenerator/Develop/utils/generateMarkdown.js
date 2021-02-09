@@ -7,30 +7,20 @@ function renderLicenseBadge(license) {
     return `![License](https://img.shields.io/badge/license-${license}-blue.svg)]`;
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {
-
-}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
     return `
 # Project Title: ${data.title}
 ## About:
-- repo: ${data.repoName}
-- discription: ${data.discription}
-- license: ${renderLicenseBadge(data.license)}
-- installation: ${data.installation}
-*ready: ${data.ready}
-## Contact:
-- contributors: ${data.contributors}
-- username: ${data.username}
-- email: ${data.email}
+- Repo-name: ${data.repoName}
+- Discription: ${data.discription}
+- License: ${renderLicenseBadge(data.license)}
+- Version of installation needed for deployment: ${data.installation}
+*Is this ready for deployment: ${data.ready}
+## Contact info:
+- Contributors: ${data.contributors}
+- Username: ${data.username}
+- Email: ${data.email}
 `;
 }
 
