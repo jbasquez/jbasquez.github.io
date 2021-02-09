@@ -42,8 +42,8 @@ const list = [
     },
     {
         type: 'input',
-        message: 'What is version is needed for instaltation',
-        name: 'instilation'
+        message: 'What is version is needed for installation',
+        name: 'installation'
     },
     {
         type: 'input',
@@ -63,7 +63,7 @@ function writeToFile(list, data) {
 function init() {
     inquirer
         .prompt(list).then(function(data){
-            let fileRead = generateMarkdown(data)
+            let fileRead = generateMarkdown(data);
             fs.writeFile("testReadMe.md",fileRead, function(err){
                 if(err){
                     return console.log("error")
@@ -71,9 +71,6 @@ function init() {
             })
             
         })
-    // inquirer.prompt(list).then(data){
-    //     writeToFile('README.md', generateMarkdown({ data }));
-    // }
 }
 
 // Function call to initialize app
