@@ -1,3 +1,4 @@
+//selectors
 const timeLeftDisplay = document.querySelector('#time-left')
 const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
