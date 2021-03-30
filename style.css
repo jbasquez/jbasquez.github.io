@@ -11,6 +11,7 @@ body {
   
 header {
     background: #333;
+    max-height: 100px;
   }
   
 h1 {
@@ -24,4 +25,7 @@ h1 {
   
  h2 {
     font-size: 24px;
+  }
+  .mainTitle{
+    text-align: center;
   }
