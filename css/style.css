@@ -49,3 +49,8 @@ h1 {
   font-size: 30px;
   color: black;
 }
+.contactForm{
+  max-width: 50%;
+  /* text-align: center; */
+  margin-left: 25%;
+}
