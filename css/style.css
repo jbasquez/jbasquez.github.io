@@ -51,6 +51,15 @@ h1 {
 }
 .contactForm{
   max-width: 50%;
-  /* text-align: center; */
   margin-left: 25%;
+}
+#contact-info{
+  text-align: center;
+}
+.contactHead{
+  text-align: center;
+  margin-top: 20px;
+}
+.minus{
+  margin-top: -20px;
 }
