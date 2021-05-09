@@ -24,12 +24,12 @@ function App() {
         </a>
       </header>
       <ProjectCard 
-        id={1}
-        name={project.name}
-        about={project.about}
-        image={project.image}
-        active={project.active}
-        repo={project.repo}
+        id={project[0].id}
+        name={project[0].name}
+        about={project[0].about}
+        image={project[0].image}
+        active={project[0].active}
+        repo={project[0].repo}
       />
       <Footer />
     </div>
