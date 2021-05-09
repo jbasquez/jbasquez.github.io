@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import Footer from './components/footer'
-import Header from './components/header'
+import Footer from './components/footer';
+import Header from './components/header';
+import ProjectCard from './components/project';
+import project from './project.json';
 
 function App() {
   return (
@@ -21,6 +23,14 @@ function App() {
           Learn React
         </a>
       </header>
+      <ProjectCard 
+        id={1}
+        name={project.name}
+        about={project.about}
+        image={project.image}
+        active={project.active}
+        repo={project.repo}
+      />
       <Footer />
     </div>
   );
