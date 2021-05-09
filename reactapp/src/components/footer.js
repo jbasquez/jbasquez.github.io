@@ -1,10 +1,10 @@
 import React from "react";
-
+import '../scss/style.scss';
 
 function Footer() {
     return(
         <footer className="fixed-bottom">
-            <div className="footerText">Made by: Joe Basquez</div>
+            <div className="footerText footer">Made by: Joe Basquez</div>
         </footer>
     );
 }
