@@ -17,9 +17,33 @@
     },
     {
         "id": 3,
+        "name": "Weather Forcast",
+        "image": "https://user-images.githubusercontent.com/71075507/117594648-92781800-b10c-11eb-9afc-4e945336156d.png",
+        "about": "This application grabs a users typed input and uses APIs to search a data base for the given city and returns a 5 day weather forecast for that city, it also saves and returns the last city searched.",
+        "active": "123",
+        "repo": "123"
+    },
+    {
+        "id": 4,
         "name": "Read Me Generator",
         "image": "123",
         "about": "Creates a ReadMe file for projects to help save time when making new repositories.",
+        "active": "123",
+        "repo": "123"
+    },
+    {
+        "id": 5,
+        "name": "Read Me Generator",
+        "image": "123",
+        "about": "Creates a ReadMe file for projects to help save time when making new repositories.",
+        "active": "123",
+        "repo": "123"
+    },
+    {
+        "id": 6,
+        "name": "Day Planner",
+        "image": "https://user-images.githubusercontent.com/71075507/117594993-82ad0380-b10d-11eb-9747-35d52077edff.png",
+        "about": "Allows user to add important events to a daily planner, colors change according to the hour in the day.",
         "active": "123",
         "repo": "123"
     }
