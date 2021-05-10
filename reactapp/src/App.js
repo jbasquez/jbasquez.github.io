@@ -4,12 +4,14 @@ import Footer from './components/footer';
 import Header from './components/header';
 import ProjectCard from './components/project';
 import project from './project.json';
+import Home from './pages/home';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <body>
+        <Home />
       <ProjectCard 
         id={project[0].id}
         name={project[0].name}
