@@ -13,14 +13,14 @@
         "image": "https://user-images.githubusercontent.com/71075507/117594278-c4d54580-b10b-11eb-9c13-fd38cb41109e.png",
         "about": "Allows the user find and book the cheapest flight and hotel to a chosen destination.",
         "active": "123",
-        "repo": "123"
+        "repo": "https://github.com/jbasquez/project1-team2"
     },
     {
         "id": 3,
         "name": "Weather Forcast",
         "image": "https://user-images.githubusercontent.com/71075507/117594648-92781800-b10c-11eb-9afc-4e945336156d.png",
         "about": "This application grabs a users typed input and uses APIs to search a data base for the given city and returns a 5 day weather forecast for that city, it also saves and returns the last city searched.",
-        "active": "123",
+        "active": "https://github.com/jbasquez/weatherForecast",
         "repo": "123"
     },
     {
@@ -37,7 +37,7 @@
         "image": "123",
         "about": "Creates a ReadMe file for projects to help save time when making new repositories.",
         "active": "123",
-        "repo": "123"
+        "repo": "https://github.com/jbasquez/readMeGen"
     },
     {
         "id": 6,
@@ -45,6 +45,6 @@
         "image": "https://user-images.githubusercontent.com/71075507/117594993-82ad0380-b10d-11eb-9747-35d52077edff.png",
         "about": "Allows user to add important events to a daily planner, colors change according to the hour in the day.",
         "active": "123",
-        "repo": "123"
+        "repo": "https://github.com/jbasquez/dayPlanner"
     }
 ]
