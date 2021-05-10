@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Munchies",
-        "image": "123",
+        "image": "https://user-images.githubusercontent.com/71075507/117594093-732cbb00-b10b-11eb-812c-a996e8ffb17d.png",
         "about": "This application allows users to save and rate new restaurants, food, and drinks.",
         "active": "123",
         "repo": "123"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Travel Buddy",
-        "image": "123",
+        "image": "https://user-images.githubusercontent.com/71075507/117594278-c4d54580-b10b-11eb-9c13-fd38cb41109e.png",
         "about": "Allows the user find and book the cheapest flight and hotel to a chosen destination.",
         "active": "123",
         "repo": "123"

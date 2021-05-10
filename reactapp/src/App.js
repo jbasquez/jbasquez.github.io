@@ -9,28 +9,16 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <body>
       <ProjectCard 
         id={project[0].id}
         name={project[0].name}
         about={project[0].about}
-        image={project[0].image}
+        image={project[2].image}
         active={project[0].active}
         repo={project[0].repo}
       />
+      </body>
       <Footer />
     </div>
   );
