@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 import Footer from './components/footer';
 import Header from './components/header';
@@ -7,12 +8,15 @@ import Projects from './pages/projects'
 function App() {
   return (
     <div className="App">
-      <Header />
-      <body>
-      <Home />
-      <Projects/>
-      </body>
-      <Footer />
+      <Router>
+        <Header />
+          <Switch>
+            <Route exact path={["/"]} component={Home} />
+            <Route exact path={["/projects"]} component={Projects} />
+            <Route exact path={["/error"]} component={Error} />
+          </Switch>
+          <Footer />
+        </Router>
     </div>
   );
 }
