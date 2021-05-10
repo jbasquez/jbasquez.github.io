@@ -1,9 +1,25 @@
 [
     {
         "id": 1,
-        "name": "testing 123",
+        "name": "Munchies",
         "image": "123",
-        "about": "testing",
+        "about": "This application allows users to save and rate new restaurants, food, and drinks.",
+        "active": "123",
+        "repo": "123"
+    },
+    {
+        "id": 2,
+        "name": "Travel Buddy",
+        "image": "123",
+        "about": "Allows the user find and book the cheapest flight and hotel to a chosen destination.",
+        "active": "123",
+        "repo": "123"
+    },
+    {
+        "id": 3,
+        "name": "Read Me Generator",
+        "image": "123",
+        "about": "Creates a ReadMe file for projects to help save time when making new repositories.",
         "active": "123",
         "repo": "123"
     }
