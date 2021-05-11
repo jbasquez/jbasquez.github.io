@@ -20,7 +20,7 @@ function Home(){
 
     <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 mainHome">
       <h3>Activities</h3>
-      <ul>
+      <ul className="noBullet">
         <li>Rock climbing</li>
         <li>Software development</li>
         <li>MMA</li>
