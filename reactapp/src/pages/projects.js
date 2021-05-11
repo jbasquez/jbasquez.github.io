@@ -4,7 +4,7 @@ import project from '../project.json';
 
 function Projects() {
     return (
-      <div className="projects">
+      <div className="projects col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <ProjectCard 
           id={project[0].id}
           name={project[0].name}
