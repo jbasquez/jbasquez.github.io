@@ -1,6 +1,6 @@
 import React from 'react';
 import"../scss/style.css";
-import munchies from "../img/munchiesImg.png"
+import selfie from "../img/selfie.PNG"
 function Home(){
         return(
 <div>
@@ -11,7 +11,7 @@ function Home(){
   <div className="row">
 
     <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-      <img src={munchies} className="img-fluid" alt="Responsive image"/>
+      <img src={selfie} className="img-fluid" alt="Responsive image"/>
       <h3>Bio:</h3>
       <p>Highly motivated, hard working individual, with a passsion for front end and back end development</p>
     </div>
