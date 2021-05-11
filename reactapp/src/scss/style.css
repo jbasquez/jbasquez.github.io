@@ -58,8 +58,10 @@ h1 {
   max-width: 50%;
   margin-left: 25%;
 }
-#contact-info{
+.contact-info{
   text-align: center;
+  padding: "20px";
+  position: "fixed";
 }
 .contactHead{
   text-align: center;
@@ -77,4 +79,7 @@ h1 {
 .sized{
   padding-left:5%;
   padding-right:5%;
+}
+.new{
+  padding: 30px;
 }

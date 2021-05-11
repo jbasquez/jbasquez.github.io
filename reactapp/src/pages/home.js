@@ -1,6 +1,6 @@
 import React from 'react';
 import"../scss/style.css";
-import selfie from "../img/selfie.PNG"
+import selfie from "../img/selfie.png";
 function Home(){
         return(
 <div>
