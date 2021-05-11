@@ -29,7 +29,7 @@ function Home(){
         <li>Video games</li>
       </ul>
       <h3>Projects</h3>
-        <ProjectCard className="col-lg-6 col-md-6 col-sm-6 col-xs-12"
+        <ProjectCard
           id={project[0].id}
           name={project[0].name}
           about={project[0].about}

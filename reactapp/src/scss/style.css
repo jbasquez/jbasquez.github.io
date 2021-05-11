@@ -83,3 +83,6 @@ h1 {
 .new{
   padding: 30px;
 }
+.projectImage{
+  max-width: 100%;
+}
