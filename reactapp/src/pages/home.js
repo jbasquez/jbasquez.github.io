@@ -37,26 +37,14 @@ function Home(){
           active={project[0].active}
           repo={project[0].repo}
         />
-          <div className="card">
-            {/* <img src="css/img/travelBuddyImg.png" class="card-img-top" alt="project picture"/> */}
-            <div className="card-body">
-              <h5 className="card-title">Travel Buddy</h5>
-              <p className="card-text">Helps the user find and book the cheapest flight and hotel to their chosen destination.</p>
-            </div>
-            <div className="card-body">
-              <a href="https://kmh8827.github.io/project1-team2/" className="card-link">Click Here</a>
-            </div>
-          </div>
-          <div className="card">
-            {/* <img src="..." class="card-img-top" alt="project picture"/> */}
-            <div className="card-body">
-              <h5 className="card-title">Read Me Generator</h5>
-              <p className="card-text">Creates a ReadMe file for project</p>
-            </div>
-            <div className="card-body">
-              <a href="https://github.com/jbasquez/readMeGen" className="card-link">Click Here</a>
-            </div>
-          </div>
+        <ProjectCard
+          id={project[1].id}
+          name={project[1].name}
+          about={project[1].about}
+          image={project[1].image}
+          active={project[1].active}
+          repo={project[1].repo}
+        />
     </div>
 
   </div>
