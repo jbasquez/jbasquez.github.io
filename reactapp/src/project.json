@@ -4,8 +4,8 @@
         "name": "Munchies",
         "image": "https://user-images.githubusercontent.com/71075507/117594093-732cbb00-b10b-11eb-812c-a996e8ffb17d.png",
         "about": "This application allows users to save and rate new restaurants, food, and drinks.",
-        "active": "123",
-        "repo": "123"
+        "active": "https://project2-teamfive.herokuapp.com/",
+        "repo": "https://github.com/jbasquez/Munchies"
     },
     {
         "id": 2,
@@ -20,8 +20,8 @@
         "name": "Weather Forcast",
         "image": "https://user-images.githubusercontent.com/71075507/117594648-92781800-b10c-11eb-9afc-4e945336156d.png",
         "about": "This application grabs a users typed input and uses APIs to search a data base for the given city and returns a 5 day weather forecast for that city, it also saves and returns the last city searched.",
-        "active": "https://github.com/jbasquez/weatherForecast",
-        "repo": "123"
+        "active": "https://jbasquez.github.io/weatherForecast/",
+        "repo": "https://github.com/jbasquez/weatherForecast"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "image": "123",
         "about": "Creates a ReadMe file for projects to help save time when making new repositories.",
         "active": "123",
-        "repo": "123"
+        "repo": "https://github.com/jbasquez/readMeGen"
     },
     {
         "id": 5,
