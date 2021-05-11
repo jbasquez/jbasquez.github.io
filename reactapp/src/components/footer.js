@@ -7,7 +7,7 @@ function Footer() {
         <footer className="new">
     <section className="contact-info">
       <h2>Contact Info</h2>
-      <ul>
+      <ul className="noBullet">
         <li><strong>Email: </strong> <a className="contact" href="contact.html">jybasquez@yahoo.com</a></li>
         <li><strong>Github: </strong> <a className="contact" href="https://github.com/jbasquez">jbasquez</a></li>
         <li><strong>Portfolio: </strong> <a className="contact" href="portfolio.html">Click Here</a></li>
