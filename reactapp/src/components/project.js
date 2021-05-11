@@ -19,7 +19,7 @@ function ProjectCard(props) {
             <strong>Active Link:</strong> {props.active}
           </li>
           <li>
-            <strong>Repo:</strong> {props.repo}
+            <strong>Repo:</strong> <a className="contact" href={props.repo}>Click Here</a>
           </li>
         </ul>
       </div>

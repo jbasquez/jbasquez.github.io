@@ -15,7 +15,7 @@ function Home(){
     <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
       <img src={selfie} className="img-fluid" alt="Responsive image"/>
       <h3>Bio:</h3>
-      <p>Highly motivated, hard working individual, with a passsion for front end and back end development</p>
+      <p>Highly motivated, hard working individual, with a passsion for front end and back end development. Do a good deed and learn something new will make sure no day is wasted.</p>
     </div>
 
     <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 mainHome">
