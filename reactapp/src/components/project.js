@@ -16,7 +16,7 @@ function ProjectCard(props) {
             <strong>About:</strong> {props.about}
           </li>
           <li>
-            <strong>Active Link:</strong> {props.active}
+            <strong>Active Link:</strong> <a className="contact" href={props.active}>Click Here</a>
           </li>
           <li>
             <strong>Repo:</strong> <a className="contact" href={props.repo}>Click Here</a>
