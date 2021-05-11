@@ -1,6 +1,8 @@
 import React from 'react';
 import"../scss/style.css";
 import selfie from "../img/selfie.png";
+import ProjectCard from '../components/project';
+import project from '../project.json'
 function Home(){
         return(
 <div>
@@ -27,16 +29,14 @@ function Home(){
         <li>Video games</li>
       </ul>
       <h3>Projects</h3>
-          <div className="card">
-            {/* <img src="css/img/munchiesImg.png" className="card-img-top" alt="project picture"/> */}
-            <div className="card-body">
-              <h5 className="card-title">Munchies</h5>
-              <p className="card-text">Saves restaurants and you can rate and save drink and food items</p>
-            </div>
-            <div className="card-body">
-              <a href="https://project2-teamfive.herokuapp.com/" className="card-link">Click Here</a>
-            </div>
-          </div>
+        <ProjectCard className="col-lg-6 col-md-6 col-sm-6 col-xs-12"
+          id={project[0].id}
+          name={project[0].name}
+          about={project[0].about}
+          image={project[0].image}
+          active={project[0].active}
+          repo={project[0].repo}
+        />
           <div className="card">
             {/* <img src="css/img/travelBuddyImg.png" class="card-img-top" alt="project picture"/> */}
             <div className="card-body">
