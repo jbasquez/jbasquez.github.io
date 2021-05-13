@@ -12,10 +12,10 @@ function App() {
       <Router>
         <Header />
           <Switch>
-            <Route exact path={["/"]} component={Home} />
-            <Route exact path={["/projects"]} component={Projects} />
-            <Route exact path={["/contactInfo"]}  component={ContactCard} />
-            <Route exact path={["/error"]} component={Error} />
+            <Route exact path={"/"} component={Home} />
+            <Route exact path={"/projects"} component={Projects} />
+            <Route exact path={"/contactInfo"}  component={ContactCard} />
+            <Route exact path={"/error"} component={Error} />
           </Switch>
         </Router>
     </div>
