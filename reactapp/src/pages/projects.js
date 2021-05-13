@@ -26,8 +26,7 @@ function Projects() {
           repo={project[0].repo}
         />
         </div>
-        </div>
-        <div className="card col-md-4 col-sm-12 col-xs-12 container-fluid">
+        <div className="width">
         <ProjectCard 
           id={project[0].id}
           name={project[0].name}
@@ -37,7 +36,19 @@ function Projects() {
           repo={project[0].repo}
         />
         </div>
-        <div className="card col-md-4 col-sm-12 col-xs-12 container-fluid">
+        </div>
+        <div className="row">
+          <div className="width">
+        <ProjectCard 
+          id={project[0].id}
+          name={project[0].name}
+          about={project[0].about}
+          image={project[2].image}
+          active={project[0].active}
+          repo={project[0].repo}
+        />
+  </div>
+  <div className="width">
         <ProjectCard 
           id={project[0].id}
           name={project[0].name}
@@ -47,6 +58,18 @@ function Projects() {
           repo={project[0].repo}
         />
         </div>
+        <div className="width">
+        <ProjectCard 
+          id={project[0].id}
+          name={project[0].name}
+          about={project[0].about}
+          image={project[2].image}
+          active={project[0].active}
+          repo={project[0].repo}
+        />
+        </div>
+        </div>
+
       </div>
     );
   }
