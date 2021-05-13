@@ -5,8 +5,8 @@ import "../scss/style.css";
 function Projects() {
     return (
       <div>
-        <div className="card col-md-4 col-sm-12 col-xs-12 container-fluid">
-          <div>
+        <div className="row">
+          <div className="width">
         <ProjectCard 
           id={project[0].id}
           name={project[0].name}
@@ -16,7 +16,7 @@ function Projects() {
           repo={project[0].repo}
         />
   </div>
-  <div>
+  <div className="width">
         <ProjectCard 
           id={project[0].id}
           name={project[0].name}
