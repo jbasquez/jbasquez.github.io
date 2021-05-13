@@ -1,7 +1,7 @@
 import ProjectCard from '../components/project';
 import project from '../project.json';
 import "../scss/style.css";
-
+import Footer from '../components/footer';
 function Projects() {
     return (
       <div>
@@ -69,7 +69,7 @@ function Projects() {
         />
         </div>
         </div>
-
+      <Footer />
       </div>
     );
   }

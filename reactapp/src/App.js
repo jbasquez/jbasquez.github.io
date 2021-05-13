@@ -14,9 +14,9 @@ function App() {
           <Switch>
             <Route exact path={["/"]} component={Home} />
             <Route exact path={["/projects"]} component={Projects} />
+            <Route exact path={["/footer"]}  component={Footer} />
             <Route exact path={["/error"]} component={Error} />
           </Switch>
-          <Footer />
         </Router>
     </div>
   );

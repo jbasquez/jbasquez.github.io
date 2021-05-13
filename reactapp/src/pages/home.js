@@ -2,7 +2,8 @@ import React from 'react';
 import"../scss/style.css";
 import selfie from "../img/selfie.png";
 import ProjectCard from '../components/project';
-import project from '../project.json'
+import project from '../project.json';
+import Footer from '../components/footer';
 function Home(){
         return(
 <div>
@@ -52,6 +53,7 @@ function Home(){
   </div>
 </section>
 </div>
+          <Footer/>
 </div>
         );
     }
