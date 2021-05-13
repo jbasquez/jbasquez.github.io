@@ -7,7 +7,7 @@ function NavBar(){
         <ul className="navbar-nav">
             <a className="nav-link" href="/">Home</a>
             <a className="nav-link" href="/projects">Portfolio</a>
-            <a className="nav-link" href="/footer">Contact</a>
+            <a className="nav-link" href="/contactInfo">Contact</a>
             <a className="nav-link" href="https://docs.google.com/document/d/19_8j402m4p8IEDOEZpv6RuhytvTNt7uwzL1mzieTZ-I/edit?usp=sharing">Resume</a>
         </ul>
       </div>
