@@ -3,9 +3,9 @@ import"../scss/style.css";
 
 function ProjectCard(props) {
     return(
-    <div className="card">
+    <div className="card height">
       <div className="img-container">
-        <img className="projectImage" alt={props.name} src={props.image} />
+        <img className="projectImage min" alt={props.name} src={props.image} />
       </div>
       <div className="content">
         <ul className="noBullet">
