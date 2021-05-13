@@ -29,6 +29,7 @@ function Home(){
         <li>Video games</li>
       </ul>
       <h3>Projects</h3>
+      <div class="tooLong">
         <ProjectCard
           id={project[0].id}
           name={project[0].name}
@@ -45,6 +46,7 @@ function Home(){
           active={project[1].active}
           repo={project[1].repo}
         />
+        </div>
     </div>
 
   </div>

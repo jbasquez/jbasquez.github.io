@@ -100,3 +100,6 @@ h1 {
 .min{
   min-height: 150px;
 }
+.tooLong{
+  max-height: 50%;
+}
