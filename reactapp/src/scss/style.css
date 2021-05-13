@@ -107,3 +107,16 @@ h1 {
 .App{
   background-color:#9b9b9b
 }
+.bg{
+  background-color:whitesmoke;
+  text-align: center;
+}
+.center{ 
+  margin-left: 6%;
+}
+.space{
+  margin-top: 1.5%;
+}
+.max{
+  max-width: 50%;
+}
