@@ -11,61 +11,61 @@ function Projects() {
           id={project[0].id}
           name={project[0].name}
           about={project[0].about}
-          image={project[2].image}
+          image={project[0].image}
           active={project[0].active}
           repo={project[0].repo}
         />
   </div>
   <div className="width">
         <ProjectCard 
-          id={project[0].id}
-          name={project[0].name}
-          about={project[0].about}
-          image={project[2].image}
-          active={project[0].active}
-          repo={project[0].repo}
+          id={project[1].id}
+          name={project[1].name}
+          about={project[1].about}
+          image={project[1].image}
+          active={project[1].active}
+          repo={project[1].repo}
         />
         </div>
         <div className="width">
         <ProjectCard 
-          id={project[0].id}
-          name={project[0].name}
-          about={project[0].about}
+          id={project[2].id}
+          name={project[2].name}
+          about={project[2].about}
           image={project[2].image}
-          active={project[0].active}
-          repo={project[0].repo}
+          active={project[2].active}
+          repo={project[2].repo}
         />
         </div>
         </div>
         <div className="row">
           <div className="width">
         <ProjectCard 
-          id={project[0].id}
-          name={project[0].name}
-          about={project[0].about}
-          image={project[2].image}
-          active={project[0].active}
-          repo={project[0].repo}
+          id={project[3].id}
+          name={project[3].name}
+          about={project[3].about}
+          image={project[3].image}
+          active={project[3].active}
+          repo={project[3].repo}
         />
   </div>
   <div className="width">
         <ProjectCard 
-          id={project[0].id}
-          name={project[0].name}
-          about={project[0].about}
-          image={project[2].image}
-          active={project[0].active}
-          repo={project[0].repo}
+          id={project[4].id}
+          name={project[4].name}
+          about={project[4].about}
+          image={project[4].image}
+          active={project[4].active}
+          repo={project[4].repo}
         />
         </div>
         <div className="width">
         <ProjectCard 
-          id={project[0].id}
-          name={project[0].name}
-          about={project[0].about}
-          image={project[2].image}
-          active={project[0].active}
-          repo={project[0].repo}
+          id={project[5].id}
+          name={project[5].name}
+          about={project[5].about}
+          image={project[5].image}
+          active={project[5].active}
+          repo={project[5].repo}
         />
         </div>
         </div>

@@ -8,7 +8,7 @@ function ProjectCard(props) {
         <img className="projectImage" alt={props.name} src={props.image} />
       </div>
       <div className="content">
-        <ul>
+        <ul className="noBullet">
           <li>
             <strong>Name:</strong> {props.name}
           </li>
