@@ -42,12 +42,12 @@ function Home(){
           repo={project[0].repo}
         />
         <ProjectCard
-          id={project[1].id}
-          name={project[1].name}
-          about={project[1].about}
-          image={project[1].image}
-          active={project[1].active}
-          repo={project[1].repo}
+          id={project[3].id}
+          name={project[3].name}
+          about={project[3].about}
+          image={project[3].image}
+          active={project[3].active}
+          repo={project[3].repo}
         />
         </div>
     </div>
