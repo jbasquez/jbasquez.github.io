@@ -8,12 +8,12 @@ function Home(){
         return(
 <div>
 <div className="container">
-<section id="main-bio">
+<div id="main-bio">
 
   <h1 className="textColor">Joe Basquez</h1>
   <div className="row">
 
-    <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 bg textColor">
+    <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 bg textColor bottom">
       <img src={selfie} className="img-fluid space" alt="Responsive image"/>
       <h3>Bio:</h3>
       <p>Highly motivated, hard working individual, with a passsion for front end and back end development. Do a good deed and learn something new will make sure no day is wasted.</p>
@@ -32,7 +32,7 @@ function Home(){
       </ul>
       </div>
       <h3>Projects</h3>
-      <div class="tooLong">
+      <div class="tooLong bottom">
         <ProjectCard
           id={project[0].id}
           name={project[0].name}
@@ -53,7 +53,7 @@ function Home(){
     </div>
 
   </div>
-</section>
+</div>
 </div>
           <Footer/>
 </div>

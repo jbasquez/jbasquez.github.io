@@ -37,7 +37,7 @@ function Projects() {
         />
         </div>
         </div>
-        <div className="row">
+        <div className="row bottom">
           <div className="width">
         <ProjectCard 
           id={project[3].id}
