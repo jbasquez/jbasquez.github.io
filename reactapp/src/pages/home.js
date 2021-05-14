@@ -19,7 +19,7 @@ function Home(){
       <p>Highly motivated, hard working individual, with a passsion for front end and back end development. Do a good deed and learn something new will make sure no day is wasted.</p>
     </div>
 
-    <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 mainHome">
+    <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 mainHome textColor">
       <div ClassName="bg">
       <h3 className="center">Activities</h3>
       <ul className="noBullet bg">
