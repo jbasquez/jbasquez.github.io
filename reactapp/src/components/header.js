@@ -10,7 +10,7 @@ function NavBar(){
             <Link to="/" className="nav-link">Home</Link>
             <Link to="/projects" className="nav-link">Portfolio</Link>
             <Link to="/contactInfo" className="nav-link">Contact</Link>
-            <a className="nav-link" href="https://docs.google.com/document/d/19_8j402m4p8IEDOEZpv6RuhytvTNt7uwzL1mzieTZ-I/edit?usp=sharing">Resume</a>
+            <a className="nav-link" href="https://docs.google.com/document/d/1JRJTE-A6u941O3F4mi2I1YtNntQPzBcEoe0PJGPR8Yo/edit?usp=sharing">Resume</a>
         </ul>
       </div>
     </nav>
