@@ -95,11 +95,6 @@ footer{
 .noBullet{
   list-style-type: none;
 }
-.width{
-  width: 31.5%;
-  margin-left: 1%;
-  margin-top: 1.5%;
-}
 .height{
   height: 100%;
 }
