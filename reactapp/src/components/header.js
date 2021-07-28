@@ -18,7 +18,7 @@ function NavBar(){
   <a class="navbar-brand" href="/">Home</a>
   <a class="navbar-brand" href="/projects">Portfolio</a>
   <a class="navbar-brand" href="/contactInfo">Contact</a>
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="https://docs.google.com/document/d/1JRJTE-A6u941O3F4mi2I1YtNntQPzBcEoe0PJGPR8Yo/edit?usp=sharing">Resume</a>
 </nav>
     )
 }
