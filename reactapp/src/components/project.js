@@ -15,13 +15,8 @@ function ProjectCard(props) {
             <li>
               <strong>About:</strong> {props.about}
             </li>
-            <li>
-              <strong>Active Link:</strong> <a className="contact" href={props.active}>Click Here</a>
-              <a class="btn PrimaryBtn" href={props.active} target="_blank" rel="noopener noreferrer">Demo</a>
-            </li>
-            <li>
-              <strong>Repo:</strong> <a className="contact" href={props.repo}>Click Here</a>
-            </li>
+              <a class="btn PrimaryBtn contact" href={props.active} target="_blank" rel="noopener noreferrer">Demo</a>
+              <a class="btn PrimaryBtn contact" href={props.repo} target="_blank" rel="noopener noreferrer">Repo</a>
           </ul>
         </div>
       </div>
