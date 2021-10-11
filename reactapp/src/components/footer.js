@@ -8,7 +8,7 @@ function Footer() {
             <section className="contact-info bg textColor">
               <h2>Contact Info</h2>
               <ul className="noBullet">
-                <li><strong>Email: </strong> <a className="contact textColor" href="contact.html">jybasquez@yahoo.com</a></li>
+                <li><strong>Email: </strong> <a className="contact textColor" href="mailto:jybasquez@yahoo.com">jybasquez@yahoo.com</a></li>
                 <li><strong>Github: </strong> <a className="contact textColor" href="https://github.com/jbasquez">jbasquez</a></li>
                 <li><strong>Portfolio: </strong> <a className="contact textColor" href="portfolio.html">Click Here</a></li>
                 <li><strong>LinkedIn: </strong> <a className="contact textColor" href="https://www.linkedin.com/in/joseph-basquez-a1ab6a1b5/">Click Here</a></li>
