@@ -15,7 +15,7 @@ function Home(){
                 <div className="row">
 
                   <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 bg textColor bottom">
-                    <img src={selfie} className="img-fluid space" alt="Responsive image"/>
+                    <img src={selfie} className="img-fluid space" alt="selfie of website creator"/>
                     <h3>Bio:</h3>
                     <p>Highly motivated, hard working individual, with a passsion for front end and back end development. Do a good deed and learn something new will make sure no day is wasted.</p>
                   </div>
@@ -24,7 +24,7 @@ function Home(){
                     <div ClassName="bg">
                       <h3 className="center">Social Media</h3>
                       <div className="noBullet bg">
-                      <a href='https://www.linkedin.com/in/joseph-basquez-a1ab6a1b5/'><img src={linkedin} className="logo" alt=""/></a>
+                      <a href='https://www.linkedin.com/in/joseph-basquez-a1ab6a1b5/'><img src={linkedin} className="logo" alt="icon for linked in"/></a>
                       </div>
                     </div>
                     <h3>Projects</h3>
