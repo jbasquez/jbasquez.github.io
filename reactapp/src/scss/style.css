@@ -6,7 +6,7 @@
 body {
   padding: 0;
   margin: 0;
- font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 150%;
   color: #333;
@@ -111,6 +111,7 @@ footer{
 .bg{
   background-color:rgb(90, 86, 86);
   text-align: center;
+  border-radius: 10px;
 }
 .center{ 
   margin-left: 6%;
