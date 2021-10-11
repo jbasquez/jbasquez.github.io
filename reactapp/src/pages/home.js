@@ -4,6 +4,7 @@ import selfie from "../img/selfie.png";
 import ProjectCard from '../components/project';
 import project from '../project.json';
 import Footer from '../components/footer';
+import linkedin from "../img/linkedInLogo.png";
 function Home(){
         return(
           <div>
@@ -23,6 +24,7 @@ function Home(){
                     <div ClassName="bg">
                       <h3 className="center">Activities</h3>
                       <ul className="noBullet bg">
+                      <img src={linkedin} className="logo" alt=""/>
                         <li>Rock climbing</li>
                         <li>Software development</li>
                         <li>MMA</li>
