@@ -6,6 +6,7 @@ import project from '../project.json';
 import Footer from '../components/footer';
 import linkedin from "../img/linkedInLogo.png";
 import github from "../img/githubIcon.png";
+import yahoo from "../img/yahooIcon.png";
 function Home(){
         return(
           <div>
@@ -27,6 +28,7 @@ function Home(){
                       <div className="noBullet bg">
                       <a href='https://www.linkedin.com/in/joseph-basquez-a1ab6a1b5/'><img src={linkedin} className="logo" alt="icon for linked in"/></a>
                       <a href='https://github.com/jbasquez'><img src={github} className="logo" alt="icon for linked in"/></a>
+                      <a href="mailto:jybasquez@yahoo.com"><img src={yahoo} className="logo" alt="icon for linked in"/></a>
                       </div>
                     </div>
                     <h3>Projects</h3>
