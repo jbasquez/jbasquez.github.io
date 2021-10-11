@@ -22,16 +22,10 @@ function Home(){
 
                   <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 mainHome textColor">
                     <div ClassName="bg">
-                      <h3 className="center">Activities</h3>
-                      <ul className="noBullet bg">
+                      <h3 className="center">Social Media</h3>
+                      <div className="noBullet bg">
                       <img src={linkedin} className="logo" alt=""/>
-                        <li>Rock climbing</li>
-                        <li>Software development</li>
-                        <li>MMA</li>
-                        <li>Stocks</li>
-                        <li>Motorcycles</li>
-                        <li>Video games</li>
-                      </ul>
+                      </div>
                     </div>
                     <h3>Projects</h3>
                     <div class="tooLong bottom">
