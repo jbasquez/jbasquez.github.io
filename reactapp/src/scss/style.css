@@ -135,3 +135,19 @@ footer{
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.btn{
+    border: 2px solid rgb(90, 86, 86);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    font-weight: 400;
+    outline: none;
+}
+.PrimaryBtn {
+  background: rgb(141, 195, 231);
+  color: rgb(2, 70, 138);
+}
+.btnSpace{
+  margin: 20px;
+}
