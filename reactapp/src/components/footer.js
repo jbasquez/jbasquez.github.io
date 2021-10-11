@@ -6,7 +6,6 @@ function Footer() {
         <div>
           <footer>
             <section className="contact-info bg textColor">
-              <h2>Contact Info</h2>
               <ul className="noBullet">
                 <li><strong>Email: </strong> <a className="contact textColor" href="mailto:jybasquez@yahoo.com">jybasquez@yahoo.com</a></li>
                 <li><strong>Github: </strong> <a className="contact textColor" href="https://github.com/jbasquez">jbasquez</a></li>

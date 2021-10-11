@@ -6,7 +6,6 @@ import yahoo from '../img/yahooIcon.png';
 function SocialMediaIcons(){
     return(
         <div ClassName="bg">
-            <h3 className="center">Social Media</h3>
             <div className="noBullet bg">
             <a href='https://www.linkedin.com/in/joseph-basquez-a1ab6a1b5/'><img src={linkedIn} className="logo" alt="icon for linked in"/></a>
             <a href='https://github.com/jbasquez'><img src={github} className="logo" alt="icon for linked in"/></a>
