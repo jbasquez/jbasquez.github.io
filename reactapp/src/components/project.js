@@ -17,6 +17,7 @@ function ProjectCard(props) {
             </li>
             <li>
               <strong>Active Link:</strong> <a className="contact" href={props.active}>Click Here</a>
+              <a class="btn PrimaryBtn" href={props.active} target="_blank" rel="noopener noreferrer">Demo</a>
             </li>
             <li>
               <strong>Repo:</strong> <a className="contact" href={props.repo}>Click Here</a>
