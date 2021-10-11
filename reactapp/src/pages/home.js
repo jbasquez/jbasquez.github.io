@@ -24,7 +24,7 @@ function Home(){
                     <div ClassName="bg">
                       <h3 className="center">Social Media</h3>
                       <div className="noBullet bg">
-                      <img src={linkedin} className="logo" alt=""/>
+                      <a href='https://www.linkedin.com/in/joseph-basquez-a1ab6a1b5/'><img src={linkedin} className="logo" alt=""/></a>
                       </div>
                     </div>
                     <h3>Projects</h3>
