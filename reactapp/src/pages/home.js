@@ -4,9 +4,7 @@ import selfie from "../img/selfie.png";
 import ProjectCard from '../components/project';
 import project from '../project.json';
 import Footer from '../components/footer';
-import linkedin from "../img/linkedInLogo.png";
-import github from "../img/githubIcon.png";
-import yahoo from "../img/yahooIcon.png";
+import SocialMediaIcons from '../components/icons';
 function Home(){
         return(
           <div>
@@ -23,14 +21,7 @@ function Home(){
                   </div>
 
                   <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 mainHome textColor">
-                    <div ClassName="bg">
-                      <h3 className="center">Social Media</h3>
-                      <div className="noBullet bg">
-                      <a href='https://www.linkedin.com/in/joseph-basquez-a1ab6a1b5/'><img src={linkedin} className="logo" alt="icon for linked in"/></a>
-                      <a href='https://github.com/jbasquez'><img src={github} className="logo" alt="icon for linked in"/></a>
-                      <a href="mailto:jybasquez@yahoo.com"><img src={yahoo} className="logo" alt="icon for linked in"/></a>
-                      </div>
-                    </div>
+                    <SocialMediaIcons />
                     <h3>Projects</h3>
                     <div class="tooLong bottom">
                       <ProjectCard

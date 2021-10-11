@@ -131,4 +131,6 @@ footer{
 .logo{
   max-width: 100px;
   min-width: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
