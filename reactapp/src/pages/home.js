@@ -5,6 +5,7 @@ import ProjectCard from '../components/project';
 import project from '../project.json';
 import Footer from '../components/footer';
 import linkedin from "../img/linkedInLogo.png";
+import github from "../img/githubIcon.png";
 function Home(){
         return(
           <div>
@@ -25,6 +26,7 @@ function Home(){
                       <h3 className="center">Social Media</h3>
                       <div className="noBullet bg">
                       <a href='https://www.linkedin.com/in/joseph-basquez-a1ab6a1b5/'><img src={linkedin} className="logo" alt="icon for linked in"/></a>
+                      <a href='https://github.com/jbasquez'><img src={github} className="logo" alt="icon for linked in"/></a>
                       </div>
                     </div>
                     <h3>Projects</h3>
