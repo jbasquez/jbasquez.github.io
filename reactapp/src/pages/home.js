@@ -16,7 +16,7 @@ function Home(){
             <div className="container">
               <div id="main-bio">
 
-                <h1 data-aos="fade-down" className="textColor">Joe Basquez</h1>
+                <h1 data-aos="fade-down" className="textColor name">Joe Basquez</h1>
                 <div className="row">
 
                   <div data-aos="fade-up" className="col-lg-6 col-md-6 col-sm-6 col-xs-12 bg textColor bottom">
