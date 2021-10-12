@@ -21,14 +21,14 @@ function Home(){
 
                   <div data-aos="fade-up" className="col-lg-6 col-md-6 col-sm-6 col-xs-12 bg textColor bottom">
                     <img src={selfie} className="img-fluid space" alt="selfie of website creator"/>
-                    <h3>Bio:</h3>
+                    <h3 class="headers">Bio:</h3>
                     <p>Highly motivated, hard working individual, with a passsion for front end and back end development. Do a good deed and learn something new will make sure no day is wasted.</p>
                   </div>
 
                   <div data-aos="fade-up" className="col-lg-6 col-md-6 col-sm-6 col-xs-12 mainHome textColor">
-                  <h3 className="center">Social Media</h3>
+                  <h3 className="center headers">Social Media</h3>
                     <SocialMediaIcons />
-                    <h3>Projects</h3>
+                    <h3 class="headers">Projects</h3>
                     <div class="tooLong bottom">
                       <ProjectCard
                         id={project[0].id}
