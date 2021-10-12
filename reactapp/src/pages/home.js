@@ -50,12 +50,12 @@ function Home(){
                         repo={project[3].repo}
                       />
                       </div>
-                      </div>
+                      </div> 
                   </div>
+                  <Footer/>
                 </div>
               </div>
             </div>
-            <Footer/>
           </div>
         );
     }
