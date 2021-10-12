@@ -5,7 +5,7 @@ import"../scss/style.css";
 function ContactCard(){
     return(
         <div className="sizing">
-            <div className="col-lg-12 col-md-4 col-sm-12 col-xs-12 textColor">
+            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 textColor">
                 <h2>Contact Me Now!</h2>
                 <SocialMediaIcons />
                 <Footer />
