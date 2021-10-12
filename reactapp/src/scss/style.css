@@ -66,7 +66,7 @@ footer{
 .contact-info{
   text-align: center;
   padding: "20px";
-  position: "fixed";
+  position: "fixed"; 
   background-color: rgb(119, 107, 91);
 }
 
@@ -153,8 +153,10 @@ footer{
 }
 .name{
   font-family: 'Shadows Into Light', cursive;
+  font-size: 65px;
 }
 .headers{
   font-family: 'Indie Flower', cursive;
   font-weight: bold;
+  font-size: 40px;
 }
