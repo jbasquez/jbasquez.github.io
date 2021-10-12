@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/static/css/main.6a95f55a.chunk.css",
-    "main.js": "/static/js/main.a3f83fec.chunk.js",
-    "main.js.map": "/static/js/main.a3f83fec.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cddb276c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cddb276c.js.map",
-    "static/css/2.800be05e.chunk.css": "/static/css/2.800be05e.chunk.css",
-    "static/js/2.1b05051e.chunk.js": "/static/js/2.1b05051e.chunk.js",
-    "static/js/2.1b05051e.chunk.js.map": "/static/js/2.1b05051e.chunk.js.map",
-    "static/js/3.ba5b055b.chunk.js": "/static/js/3.ba5b055b.chunk.js",
-    "static/js/3.ba5b055b.chunk.js.map": "/static/js/3.ba5b055b.chunk.js.map",
+    "main.js": "/static/js/main.02ecf8a4.chunk.js",
+    "main.js.map": "/static/js/main.02ecf8a4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9dfc4572.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9dfc4572.js.map",
+    "static/css/2.87b92d29.chunk.css": "/static/css/2.87b92d29.chunk.css",
+    "static/js/2.3d4cac4d.chunk.js": "/static/js/2.3d4cac4d.chunk.js",
+    "static/js/2.3d4cac4d.chunk.js.map": "/static/js/2.3d4cac4d.chunk.js.map",
+    "static/js/3.1b1f90aa.chunk.js": "/static/js/3.1b1f90aa.chunk.js",
+    "static/js/3.1b1f90aa.chunk.js.map": "/static/js/3.1b1f90aa.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.800be05e.chunk.css.map": "/static/css/2.800be05e.chunk.css.map",
+    "static/css/2.87b92d29.chunk.css.map": "/static/css/2.87b92d29.chunk.css.map",
     "static/css/main.6a95f55a.chunk.css.map": "/static/css/main.6a95f55a.chunk.css.map",
-    "static/js/2.1b05051e.chunk.js.LICENSE.txt": "/static/js/2.1b05051e.chunk.js.LICENSE.txt",
+    "static/js/2.3d4cac4d.chunk.js.LICENSE.txt": "/static/js/2.3d4cac4d.chunk.js.LICENSE.txt",
     "static/media/githubIcon.1f2c9728.png": "/static/media/githubIcon.1f2c9728.png",
     "static/media/linkedInLogo.c73d6e29.png": "/static/media/linkedInLogo.c73d6e29.png",
     "static/media/selfie.affc7880.png": "/static/media/selfie.affc7880.png",
     "static/media/yahooIcon.00b705a2.png": "/static/media/yahooIcon.00b705a2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.cddb276c.js",
-    "static/css/2.800be05e.chunk.css",
-    "static/js/2.1b05051e.chunk.js",
+    "static/js/runtime-main.9dfc4572.js",
+    "static/css/2.87b92d29.chunk.css",
+    "static/js/2.3d4cac4d.chunk.js",
     "static/css/main.6a95f55a.chunk.css",
-    "static/js/main.a3f83fec.chunk.js"
+    "static/js/main.02ecf8a4.chunk.js"
   ]
 }
