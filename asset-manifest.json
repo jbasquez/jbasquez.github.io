@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4840cadc.chunk.css",
-    "main.js": "/static/js/main.2de2c31e.chunk.js",
-    "main.js.map": "/static/js/main.2de2c31e.chunk.js.map",
+    "main.js": "/static/js/main.177df212.chunk.js",
+    "main.js.map": "/static/js/main.177df212.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9dfc4572.js",
     "runtime-main.js.map": "/static/js/runtime-main.9dfc4572.js.map",
     "static/css/2.87b92d29.chunk.css": "/static/css/2.87b92d29.chunk.css",
@@ -14,16 +14,16 @@
     "static/css/2.87b92d29.chunk.css.map": "/static/css/2.87b92d29.chunk.css.map",
     "static/css/main.4840cadc.chunk.css.map": "/static/css/main.4840cadc.chunk.css.map",
     "static/js/2.3d4cac4d.chunk.js.LICENSE.txt": "/static/js/2.3d4cac4d.chunk.js.LICENSE.txt",
-    "static/media/githubIcon.1f2c9728.png": "/static/media/githubIcon.1f2c9728.png",
-    "static/media/linkedInLogo.c73d6e29.png": "/static/media/linkedInLogo.c73d6e29.png",
+    "static/media/githubIcon.bf17abb6.png": "/static/media/githubIcon.bf17abb6.png",
+    "static/media/linkedinIcon.0d55e41f.png": "/static/media/linkedinIcon.0d55e41f.png",
     "static/media/selfie.affc7880.png": "/static/media/selfie.affc7880.png",
-    "static/media/yahooIcon.00b705a2.png": "/static/media/yahooIcon.00b705a2.png"
+    "static/media/yahooIcon.46afac13.png": "/static/media/yahooIcon.46afac13.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9dfc4572.js",
     "static/css/2.87b92d29.chunk.css",
     "static/js/2.3d4cac4d.chunk.js",
     "static/css/main.4840cadc.chunk.css",
-    "static/js/main.2de2c31e.chunk.js"
+    "static/js/main.177df212.chunk.js"
   ]
 }
