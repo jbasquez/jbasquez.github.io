@@ -170,3 +170,7 @@ footer{
 .bl{
   color: black;
 }
+.card{
+  border-color:rgb(90, 86, 86);
+  border-width: thick;
+}
