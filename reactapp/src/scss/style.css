@@ -122,6 +122,8 @@ footer{
 
 .textColor{
   color:rgb(141, 195, 231);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 .sizing{
   height:1000px;
@@ -159,4 +161,12 @@ footer{
   font-family: 'Indie Flower', cursive;
   font-weight: bold;
   font-size: 40px;
+}
+.disc{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color:rgb(10, 150, 244);
+}
+.bl{
+  color: black;
 }
