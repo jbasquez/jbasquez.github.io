@@ -1,5 +1,5 @@
 import React from 'react';
-import linkedIn from '../img/linkedInLogo.png';
+import linkedIn from '../img/linkedinIcon.png';
 import github from '../img/githubIcon.png';
 import yahoo from '../img/yahooIcon.png';
 
