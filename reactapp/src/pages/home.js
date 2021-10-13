@@ -21,7 +21,7 @@ function Home(){
 
                   <div data-aos="fade-right" className="col-lg-6 col-md-6 col-sm-6 col-xs-12 bg textColor bottom">
                     <img src={selfie} className="img-fluid space" alt="selfie of website creator"/>
-                    <h3 class="headers">Bio:</h3>
+                    <h3 className="headers">Bio:</h3>
                     <p className="textColor">Highly motivated, hard working individual, with a passsion for front end and back end development. Do a good deed and learn something new will make sure no day is wasted.</p>
                   </div>
 
@@ -31,8 +31,8 @@ function Home(){
                     <SocialMediaIcons />
                   </div>
                   <div data-aos="fade-left">
-                    <h3 class="headers">Projects</h3>
-                    <div class="tooLong bottom">
+                    <h3 className="headers">Projects</h3>
+                    <div className="tooLong bottom">
                       <ProjectCard
                         id={project[0].id}
                         name={project[0].name}
