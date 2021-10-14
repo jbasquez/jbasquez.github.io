@@ -68,6 +68,7 @@ function Projects() {
                 id={project[5].id}
                 name={project[5].name}
                 about={project[5].about}
+                skills={project[5].skills}
                 image={project[5].image}
                 active={project[5].active}
                 repo={project[5].repo}
