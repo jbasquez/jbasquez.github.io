@@ -37,6 +37,7 @@ function Home(){
                         id={project[0].id}
                         name={project[0].name}
                         about={project[0].about}
+                        skills={project[0].skills}
                         image={project[0].image}
                         active={project[0].active}
                         repo={project[0].repo}
@@ -45,6 +46,7 @@ function Home(){
                         id={project[3].id}
                         name={project[3].name}
                         about={project[3].about}
+                        skills={project[0].skills}
                         image={project[3].image}
                         active={project[3].active}
                         repo={project[3].repo}
