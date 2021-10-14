@@ -6,7 +6,7 @@ function Projects() {
     return (
       <div>
         <div className="row">
-          <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <ProjectCard 
               id={project[0].id}
               name={project[0].name}
@@ -16,7 +16,7 @@ function Projects() {
               repo={project[0].repo}
             />
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <ProjectCard 
               id={project[1].id}
               name={project[1].name}
@@ -26,7 +26,7 @@ function Projects() {
               repo={project[1].repo}
             />
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <ProjectCard 
               id={project[2].id}
               name={project[2].name}
@@ -38,7 +38,7 @@ function Projects() {
           </div>
         </div>
           <div className="row bottom">
-            <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
               <ProjectCard 
                 id={project[3].id}
                 name={project[3].name}
@@ -48,7 +48,7 @@ function Projects() {
                 repo={project[3].repo}
               />
             </div>
-            <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
               <ProjectCard 
                 id={project[4].id}
                 name={project[4].name}
@@ -58,7 +58,7 @@ function Projects() {
                 repo={project[4].repo}
               />
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <ProjectCard 
               id={project[5].id}
               name={project[5].name}
