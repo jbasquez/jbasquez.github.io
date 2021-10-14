@@ -22,7 +22,7 @@ function Home(){
                   <div data-aos="fade-right" className="col-lg-6 col-md-6 col-sm-12 col-xs-12 bg textColor bottom">
                     <img src={selfie} className="img-fluid space" alt="selfie of website creator"/>
                     <h3 className="headers">Bio:</h3>
-                    <p className="textColor">Highly motivated, hard working individual, with a passsion for Software Development. I enjoy agile working environments, see every challenge as a opportunity to learn, great at reading and understanding documentation, and have many skills such as photo and video editing.</p>
+                    <p className="textColor">Highly motivated, hard working individual, with a passsion for Software Development. I enjoy agile working environments, see every challenge as an opportunity to learn, great at reading and understanding documentation, and have many skills such as photo and video editing.</p>
                   </div>
 
                   <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mainHome textColor">
