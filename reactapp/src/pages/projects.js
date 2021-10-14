@@ -57,17 +57,17 @@ function Projects() {
                 active={project[4].active}
                 repo={project[4].repo}
               />
-          </div>
-          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <ProjectCard 
-              id={project[5].id}
-              name={project[5].name}
-              about={project[5].about}
-              image={project[5].image}
-              active={project[5].active}
-              repo={project[5].repo}
-            />
-          </div>
+            </div>
+            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <ProjectCard 
+                id={project[5].id}
+                name={project[5].name}
+                about={project[5].about}
+                image={project[5].image}
+                active={project[5].active}
+                repo={project[5].repo}
+              />
+            </div>
           </div>
         <Footer />
       </div>

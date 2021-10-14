@@ -49,8 +49,8 @@ function Home(){
                         active={project[3].active}
                         repo={project[3].repo}
                       />
-                      </div>
-                      </div> 
+                    </div>
+                    </div> 
                   </div>
                   <Footer/>
                 </div>
