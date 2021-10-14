@@ -50,7 +50,7 @@
         "image": "https://user-images.githubusercontent.com/71075507/117594993-82ad0380-b10d-11eb-9747-35d52077edff.png",
         "about": "Allows user to add important events to a daily planner, colors change according to the hour in the day.",
         "skills":"Html CSS JQuery and Moment.js",
-        "active": "123",
+        "active": "https://jbasquez.github.io/dayPlanner/",
         "repo": "https://github.com/jbasquez/dayPlanner"
     }
 ]
