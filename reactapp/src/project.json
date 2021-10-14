@@ -40,6 +40,7 @@
         "name": "Read Me Generator",
         "image": "123",
         "about": "Creates a ReadMe file for projects to help save time when making new repositories.",
+        "skills":"Javascript",
         "active": "",
         "repo": "https://github.com/jbasquez/readMeGen"
     },
