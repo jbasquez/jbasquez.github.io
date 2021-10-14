@@ -22,6 +22,7 @@
         "name": "Weather Forcast",
         "image": "https://user-images.githubusercontent.com/71075507/117594648-92781800-b10c-11eb-9afc-4e945336156d.png",
         "about": "This application grabs a users typed input and uses APIs to search a data base for the given city and returns a 5 day weather forecast for that city, it also saves and returns the last city searched.",
+        "skills":"Html, JavaScript, CSS, Bootstrap, JQuery, and Dayjs()",
         "active": "https://jbasquez.github.io/weatherForecast/",
         "repo": "https://github.com/jbasquez/weatherForecast"
     },
