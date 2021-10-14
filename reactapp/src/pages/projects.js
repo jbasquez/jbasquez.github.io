@@ -22,6 +22,7 @@ function Projects() {
               id={project[1].id}
               name={project[1].name}
               about={project[1].about}
+              skills={project[1].skills}
               image={project[1].image}
               active={project[1].active}
               repo={project[1].repo}

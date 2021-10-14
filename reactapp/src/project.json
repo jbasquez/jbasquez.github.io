@@ -13,6 +13,7 @@
         "name": "Travel Buddy",
         "image": "https://user-images.githubusercontent.com/71075507/117594278-c4d54580-b10b-11eb-9c13-fd38cb41109e.png",
         "about": "Allows the user find and book the cheapest flight and hotel to a chosen destination.",
+        "skills":"Html5, CSS3, JavaScript, Jquery, and Api's",
         "active": "https://kmh8827.github.io/Travel-Buddy/",
         "repo": "https://github.com/jbasquez/project1-team2"
     },
