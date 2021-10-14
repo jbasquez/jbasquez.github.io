@@ -4,6 +4,7 @@
         "name": "Munchies",
         "image": "https://user-images.githubusercontent.com/71075507/117594093-732cbb00-b10b-11eb-812c-a996e8ffb17d.png",
         "about": "This application allows users to save and rate new restaurants, food, and drinks.",
+        "skills":"Express, MySql2, Passport, Sequelize, and Node",
         "active": "https://project2-teamfive.herokuapp.com/",
         "repo": "https://github.com/jbasquez/Munchies"
     },
