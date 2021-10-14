@@ -7,6 +7,7 @@ import Footer from '../components/footer';
 import SocialMediaIcons from '../components/icons';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+
 function Home(){
       useEffect(() => {
         Aos.init({duration: 3000});
@@ -23,6 +24,9 @@ function Home(){
                     <img src={selfie} className="img-fluid space" alt="selfie of website creator"/>
                     <h3 className="headers">Bio:</h3>
                     <p className="textColor">Highly motivated, hard working individual, with a passsion for Software Development. I enjoy agile working environments, see every challenge as an opportunity to learn, great at reading and understanding documentation, and have many skills such as photo and video editing.</p>
+                  </div>
+                  <div data-aos="fade-right" className="col-lg-6 col-md-6 col-sm-12 col-xs-12 bg textColor bottom">
+                    <h2>Random office quote</h2>
                   </div>
 
                   <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mainHome textColor">
