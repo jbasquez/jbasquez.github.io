@@ -31,6 +31,7 @@
         "name": "Donation Connection",
         "image": "https://user-images.githubusercontent.com/71075507/118063586-6906f880-b367-11eb-8816-034cecde7125.png",
         "about": "Application to allow a company to post food for donation and allows those in need to reserve and pick up food.",
+        "skills":"React, SCSS, Bootstrap, and Robo 3T",
         "active": "https://donation-connection.herokuapp.com/",
         "repo": "https://github.com/kmh8827/DonationConnection"
     },
