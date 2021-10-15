@@ -23,7 +23,7 @@ function Home(){
                     <div className="bg">
                       <img src={selfie} className="img-fluid space" alt="selfie of website creator"/>
                       <h3 className="headers">Bio:</h3>
-                      <p>Highly motivated, hard working individual, with a passsion for Software Development. I enjoy agile working environments, see every challenge as an opportunity to learn, great at reading and understanding documentation, and have many skills such as photo and video editing.</p>
+                      <p>Highly motivated, hard working individual, with a passion for Software Development. I enjoy agile working environments, see every challenge as an opportunity to learn, great at reading and understanding documentation, and have many skills such as photo and video editing.</p>
                     </div>
                     <div data-aos="fade-right" className="bg">
                       <FetchRandomQuote />
