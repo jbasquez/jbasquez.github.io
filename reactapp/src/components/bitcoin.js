@@ -3,30 +3,30 @@ import React from "react";
 export default class FetchBitcoin extends React.Component {
   state = {
     loading: true,
-    quote: null
+    price: null
   };
 
   async componentDidMount() {
     const url = "https://api2.binance.com/api/v3/ticker/24hr";
     const response = await fetch(url);
     const data = await response.json();
-    this.setState({ quote: data[11].lastPrice, loading: false });
-    console.log(data[11].lastPrice);
+    this.setState({ price: data[11].weightedAvgPrice, loading: false });
+    console.log(data[11]);
   }
 
   render() {
     if (this.state.loading) {
-      return <div>loading...</div>;
+      return <div>one moment please...</div>;
     }
 
-    if (!this.state.quote) {
-      return <div>didn't get a quote</div>;
+    if (!this.state.price) {
+      return <div>didn't get a price</div>;
     }
 
     return (
       <div>
-        <h2 className="textColor headers">Office Api Quote Generator</h2>
-        <div className="textColor">{this.state.quote}</div>
+        <h2 className="textColor headers">Bitcoin's Last Price</h2>
+        <div className="big">{this.state.price}</div>
       </div>
     );
   }

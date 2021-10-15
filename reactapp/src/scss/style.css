@@ -172,3 +172,9 @@ footer{
   border-color:rgb(90, 86, 86);
   border-width: thick;
 }
+.margin{
+  margin-top:20px;
+}
+.big{
+  font-size: 30px;
+}
