@@ -5,7 +5,7 @@ import Footer from '../components/footer';
 function Projects() {
     return (
       <div>
-        <div className="row">
+        <div className="row mar">
           <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <ProjectCard 
               id={project[0].id}
@@ -40,7 +40,7 @@ function Projects() {
             />
           </div>
         </div>
-          <div className="row bottom">
+          <div className="row bottom mar">
             <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
               <ProjectCard 
                 id={project[3].id}
