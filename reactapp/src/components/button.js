@@ -6,12 +6,10 @@ import {Link } from "react-router-dom";
      return (
        <div>
          <p>
-           This is the first page.
-           <br />
-           Click on the button below.
+           Click now to see more.
          </p>
-         <Link to="/projects"><button>
-           Go to Page 2 
+         <Link to="/projects"><button class="btn PrimaryBtn contact">
+           Lets Go! 
          </button>
          </Link>
        </div>
