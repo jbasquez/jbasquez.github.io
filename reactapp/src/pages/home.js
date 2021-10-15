@@ -28,7 +28,6 @@ function Home(){
                     <p className="textColor">Highly motivated, hard working individual, with a passsion for Software Development. I enjoy agile working environments, see every challenge as an opportunity to learn, great at reading and understanding documentation, and have many skills such as photo and video editing.</p>
                     </div>
                     <div className="bg">
-                    <h2>Office Api Quote Generator</h2>
                     <FetchRandomQuote />
                     </div>
                   </div>

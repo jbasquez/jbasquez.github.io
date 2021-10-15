@@ -25,7 +25,8 @@ export default class FetchRandomQuote extends React.Component {
 
     return (
       <div>
-        <div>{this.state.quote}</div>
+        <h2 className="textColor headers">Office Api Quote Generator</h2>
+        <div className="textColor">{this.state.quote}</div>
       </div>
     );
   }
