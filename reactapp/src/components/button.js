@@ -5,7 +5,7 @@ import {Link } from "react-router-dom";
 
      return (
        <div>
-         <p>
+         <p className="headerButton">
            Click now to see more.
          </p>
          <Link to="/projects"><button class="btn PrimaryBtn contact">

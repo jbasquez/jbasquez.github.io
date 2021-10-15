@@ -181,3 +181,8 @@ footer{
 .mar{
   margin-top: 10px;
 }
+.headerButton{
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
