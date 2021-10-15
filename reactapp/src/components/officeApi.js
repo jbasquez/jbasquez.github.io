@@ -11,7 +11,6 @@ export default class FetchRandomQuote extends React.Component {
     const response = await fetch(url);
     const data = await response.json();
     this.setState({ quote: data.data.content, loading: false });
-    console.log(data.data.content);
   }
 
   render() {

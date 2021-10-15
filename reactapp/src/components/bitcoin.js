@@ -11,7 +11,6 @@ export default class FetchBitcoin extends React.Component {
     const response = await fetch(url);
     const data = await response.json();
     this.setState({ price: data[11].weightedAvgPrice, loading: false });
-    console.log(data[11]);
   }
 
   render() {
