@@ -9,6 +9,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import FetchRandomQuote from '../components/officeApi';
 import FetchBitcoin from '../components/bitcoin';
+import SeeMoreButton from '../components/button'
 
 function Home(){
       useEffect(() => {
@@ -62,7 +63,7 @@ function Home(){
                       </div>
                     </div> 
                     <div className="bg">
-                      <h2>test123</h2>
+                      <SeeMoreButton />
                     </div>
                   </div>
                   <Footer/>
