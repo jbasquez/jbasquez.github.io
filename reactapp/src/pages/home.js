@@ -21,13 +21,18 @@ function Home(){
                 <h1 data-aos="fade-down" className="textColor name">Joe Basquez</h1>
                 <div className="row">
 
-                  <div data-aos="fade-right" className="col-lg-6 col-md-6 col-sm-12 col-xs-12 bg textColor bottom">
+                  <div data-aos="fade-right" className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div className="bg">
                     <img src={selfie} className="img-fluid space" alt="selfie of website creator"/>
                     <h3 className="headers">Bio:</h3>
                     <p className="textColor">Highly motivated, hard working individual, with a passsion for Software Development. I enjoy agile working environments, see every challenge as an opportunity to learn, great at reading and understanding documentation, and have many skills such as photo and video editing.</p>
+                    </div>
+                    <div className="bg">
                     <h2>Office Api Quote Generator</h2>
                     <FetchRandomQuote />
+                    </div>
                   </div>
+
                   <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mainHome textColor">
                   <div data-aos="fade-left">
                   <h3 className="center headers">Social Media</h3>
