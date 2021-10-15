@@ -8,6 +8,7 @@ import SocialMediaIcons from '../components/icons';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import FetchRandomQuote from '../components/officeApi';
+import FetchBitcoin from '../components/bitcoin';
 
 function Home(){
       useEffect(() => {
@@ -27,6 +28,9 @@ function Home(){
                     </div>
                     <div data-aos="fade-right" className="bg">
                       <FetchRandomQuote />
+                    </div>
+                    <div data-aos="fade-right" className="bg">
+                      <FetchBitcoin />
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mainHome textColor">
