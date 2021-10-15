@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 function NavBar(){
     return(
-      <nav data-aos="fade-down" className="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-light bg-light">
         <a className="navbar-brand col-lg-1 col-md-1 col-sm-2 col-xs-12" href="/">Home</a>
         <Link to="/projects" className="navbar-brand col-lg-1 col-md-1 col-sm-3 col-xs-12">Portfolio</Link>
         <Link to="/contactInfo" className="navbar-brand col-lg-1 col-md-1 col-sm-3 col-xs-12">Contact</Link>
