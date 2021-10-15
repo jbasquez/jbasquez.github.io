@@ -62,11 +62,13 @@ function Home(){
                         />
                       </div>
                     </div> 
-                    <div className="bg">
+                    <div className="bg padB">
                       <SeeMoreButton />
                     </div>
                   </div>
+                  <div className="mar">
                   <Footer/>
+                  </div>
                 </div>
               </div>
             </div>

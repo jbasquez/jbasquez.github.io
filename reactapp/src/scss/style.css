@@ -173,8 +173,11 @@ footer{
   border-width: thick;
 }
 .margin{
-  margin-top:20px;
+  margin-top: 20px;
 }
 .big{
   font-size: 30px;
+}
+.mar{
+  margin-top: 10px;
 }
