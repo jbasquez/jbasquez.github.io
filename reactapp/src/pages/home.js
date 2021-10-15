@@ -61,6 +61,9 @@ function Home(){
                         />
                       </div>
                     </div> 
+                    <div className="bg">
+                      <h2>test123</h2>
+                    </div>
                   </div>
                   <Footer/>
                 </div>
