@@ -189,3 +189,10 @@ footer{
 .expand{
   height: 100vh;
 }
+.bgBtc {
+  background-image: url("../img/btcBg.png");
+  background-size: contain;
+ }
+ .darker{
+  text-shadow: rgb(23, 22, 22) 0px 0px 10px;
+ }

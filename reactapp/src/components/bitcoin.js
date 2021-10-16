@@ -23,7 +23,7 @@ export default class FetchBitcoin extends React.Component {
     }
 
     return (
-      <div>
+      <div className="darker">
         <h2 className="textColor headers">Bitcoin's Last Price</h2>
         <div className="big">{this.state.price}</div>
       </div>

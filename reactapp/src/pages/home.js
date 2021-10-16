@@ -30,7 +30,7 @@ function Home(){
                     <div data-aos="fade-right" className="bg">
                       <FetchRandomQuote />
                     </div>
-                    <div data-aos="fade-right" className="bg margin">
+                    <div data-aos="fade-right" className="bg margin bgBtc">
                       <FetchBitcoin />
                     </div>
                   </div>
