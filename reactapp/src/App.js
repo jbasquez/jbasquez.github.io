@@ -4,7 +4,6 @@ import ContactCard from './pages/contactInfo';
 import Header from './components/header';
 import Home from './pages/home';
 import Projects from './pages/projects';
-import NoMatch from './components/404Page';
 
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
             <Route exact path={"/"} component={Home} />
             <Route exact path={"/projects"} component={Projects} />
             <Route exact path={"/contactInfo"}  component={ContactCard} />
-            <Route exact path={"*"} component={NoMatch} />
           </Switch>
         </Router>
     </div>
