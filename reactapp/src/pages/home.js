@@ -62,7 +62,7 @@ function Home(){
                         />
                       </div>
                     </div> 
-                    <div className="bg padB">
+                    <div data-aos="fade-left" className="bg padB">
                       <SeeMoreButton />
                     </div>
                   </div>
