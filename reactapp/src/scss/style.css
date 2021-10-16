@@ -196,3 +196,6 @@ footer{
  .darker{
   text-shadow: rgb(23, 22, 22) 0px 0px 10px;
  }
+ .mid{
+   margin: auto;
+ }
