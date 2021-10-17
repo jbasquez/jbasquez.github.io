@@ -76,8 +76,8 @@ function Projects() {
               />
               </div>
               <div className="square">
-                <h2>Click to see more projects and repos on github</h2>
-              <a className="btn PrimaryBtn contact mar" href="https://github.com/jbasquez?tab=repositories" target="_blank" rel="noopener noreferrer">Click Me!</a>
+                <h2 className="headers textColor">Click to see more projects and repos on github</h2>
+              <a className="btn PrimaryBtn contact mar" href="https://github.com/jbasquez?tab=repositories" target="_blank" rel="noopener noreferrer">Click Now!</a>
               </div>
             </div>
           </div>
