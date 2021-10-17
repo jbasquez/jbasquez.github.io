@@ -75,8 +75,8 @@ function Projects() {
                 repo={project[4].repo}
               />
               </div>
-              <div>
-              <a className="btn PrimaryBtn contact" href="https://github.com/jbasquez?tab=repositories" target="_blank" rel="noopener noreferrer">Demo</a>
+              <div className="square">
+              <a className="btn PrimaryBtn contact mar" href="https://github.com/jbasquez?tab=repositories" target="_blank" rel="noopener noreferrer">Demo</a>
               </div>
             </div>
           </div>

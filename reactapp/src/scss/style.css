@@ -199,3 +199,10 @@ footer{
  .mid{
    margin: auto;
  }
+ .square{
+  border: 2px solid rgb(90, 86, 86);
+  padding: 10px;
+  background-color: whitesmoke;
+  margin-top: 20px;
+  min-height: 90px;
+ }
