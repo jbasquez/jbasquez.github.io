@@ -16,14 +16,20 @@ function ContactCard(){
             </div>
             <div className="row">
             <h2 className="textColor">Interest</h2>
-                <div className="col-lg-4 col-md-6 col-sm-10 col-xs-12 textColor mid">
+                <div className="col-lg-6 col-md-6 col-sm-10 col-xs-12 textColor mid">
                     <div className="bg">
+                            <h3>Crypto</h3>
                             <p>Bitcoin</p>
+                            <p>Ethereum</p>
+                            <p>Shiba Inu</p>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-10 col-xs-12 textColor mid">
+                <div className="col-lg-6 col-md-6 col-sm-10 col-xs-12 textColor mid">
                     <div className="bg">
-                            <p>Bitcoin</p>
+                        <h3>Crypto</h3>
+                        <p>Bitcoin</p>
+                        <p>Ethereum</p>
+                        <p>Shiba Inu</p>      
                     </div>
                 </div>
             </div>
